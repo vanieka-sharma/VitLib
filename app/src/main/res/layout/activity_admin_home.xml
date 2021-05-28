@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".AdminHome">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADMIN HOME"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_margin="30dp"
+                android:textColor="#000000"
+                android:textAlignment="center"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:background="#81b9bf"
+                android:id="@+id/addBook"
+                android:text="Add Book"
+                />
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:background="#81b9bf"
+                android:id="@+id/Issue_Book"
+                android:layout_margin="10dp"
+                android:text="issue book to user"
+                />
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_cse"
+                android:layout_margin="10dp"
+                android:background="#81b9bf"
+                android:text="CSE sample papers"
+                />
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_bio"
+                android:background="#81b9bf"
+                android:layout_margin="10dp"
+                android:text="Bio Sample Papers"
+                />
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_mat"
+                android:background="#81b9bf"
+                android:layout_margin="10dp"
+                android:text="Mat sample papers"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:background="#81b9bf"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_chy"
+                android:layout_margin="10dp"
+                android:text="Chy sample papers"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/fine"
+                android:layout_margin="10dp"
+                android:background="#81b9bf"
+                android:text="fine"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/logOut"
+                android:background="#81b9bf"
+                android:layout_margin="10dp"
+                android:text="Log Out"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

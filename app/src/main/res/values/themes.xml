@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Vit_Lib" parent="Theme.Design.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#b2ebf2</item>
+        <item name="colorPrimaryVariant">#81b9bf</item>
+        <item name="colorOnPrimary">#e5ffff</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#e8eaf6</item>
+        <item name="colorSecondaryVariant">#b6b8c3</item>
+        <item name="colorOnSecondary">#ffffff</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

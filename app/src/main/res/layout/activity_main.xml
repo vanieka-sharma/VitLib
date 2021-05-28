@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    app:layout_goneMarginBottom="10dp"
+    app:layout_goneMarginEnd="30dp"
+    app:layout_goneMarginLeft="150dp"
+    app:layout_goneMarginRight="200dp"
+    android:background="#DDECF8"
+    app:layout_goneMarginStart="300dp"
+    app:layout_goneMarginTop="500dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="9dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/logo1"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="-117dp"
+        android:layout_marginEnd="61dp"
+        android:layout_toStartOf="@+id/logo"
+        android:text="@string/VIT_LIB"
+        android:textAllCaps="false"
+        android:textColor="#009688"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="634dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="7dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="263dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="7dp"
+            android:src="@drawable/library_pic"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:text="@string/welcome_to_vit_s_smart_library"
+            android:textAlignment="center"
+            android:textColor="#009688"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:background="#81b9bf"
+            android:padding="5dp"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:background="#81b9bf"
+            android:padding="5dp"
+            android:text="@string/register" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:background="#81b9bf"
+            android:padding="5dp"
+            android:text="logout" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

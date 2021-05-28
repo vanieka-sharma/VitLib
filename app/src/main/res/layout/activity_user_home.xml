@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_margin="20dp"
+    tools:context=".UserHome">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="648dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="80dp"
+                android:elegantTextHeight="true"
+                android:text="USER HOME"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="33dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/profile"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#81b9bf"
+                android:gravity="center"
+                android:text="My Profile" />
+
+            <Button
+                android:id="@+id/bookPdf"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#81b9bf"
+                android:gravity="center"
+                android:text="Pdf of books" />
+
+            <Button
+                android:id="@+id/sample_paper"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#81b9bf"
+                android:gravity="center"
+                android:text="Sample Papers " />
+
+            <Button
+                android:id="@+id/issued_books"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#81b9bf"
+                android:gravity="center"
+                android:text="Issued Books" />
+
+            <Button
+                android:id="@+id/fine"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#81b9bf"
+                android:gravity="center"
+                android:text="View Fine " />
+
+            <Button
+                android:id="@+id/logOut1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#81b9bf"
+                android:gravity="center"
+                android:text="Log Out" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
